@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VisualStudioProject ProjectType="typeStaticLibrary" ProjectCreator="Intel Fortran" Keyword="Static Library" Version="11.0" ProjectIdGuid="{C655F5DA-2599-3574-A7B2-EEF842F82251}">
+	<Platforms>
+		<Platform Name="x64"/></Platforms>
+	<Configurations>
+		<Configuration Name="Debug|x64" TargetName="$(ProjectName)d" ConfigurationType="typeStaticLibrary">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/W1 /W1 -fltconsistency" SuppressStartupBanner="true" DebugInformationFormat="debugEnabled" Preprocess="preprocessYes" PreprocessorDefinitions="CMAKE_INTDIR=\&quot;Debug\&quot;" ModulePath=".\$(ConfigurationName)" RuntimeLibrary="rtMultiThreadedDLL" ExceptionHandling="0"/>
+				<Tool Name="VFLibrarianTool" AdditionalOptions="/machine:x64" OutputFile="..\lib\fitpackd.lib"/>
+				<Tool Name="VFResourceCompilerTool" PreprocessorDefinitions="CMAKE_INTDIR=\&quot;Debug\&quot;"/>
+				<Tool Name="VFMidlTool" GenerateStublessProxies="true" OutputDirectory="$(IntDir)" HeaderFileName="$(InputName).h" DLLDataFileName="" InterfaceIdentifierFileName="$(InputName)_i.c" ProxyFileName="$(InputName)_p.c" TypeLibraryName="$(InputName).tlb"/>
+				<Tool Name="VFCustomBuildTool"/>
+				<Tool Name="VFPreLinkEventTool"/>
+				<Tool Name="VFPreBuildEventTool"/>
+				<Tool Name="VFPostBuildEventTool"/>
+				<Tool Name="VFManifestTool"/></Configuration>
+		<Configuration Name="Release|x64" ConfigurationType="typeStaticLibrary">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/W1 /W1 -fltconsistency" SuppressStartupBanner="true" Preprocess="preprocessYes" PreprocessorDefinitions="CMAKE_INTDIR=\&quot;Release\&quot;" ModulePath=".\$(ConfigurationName)" RuntimeLibrary="rtMultiThreadedDLL" ExceptionHandling="0"/>
+				<Tool Name="VFLibrarianTool" AdditionalOptions="/machine:x64" OutputFile="..\lib\fitpack.lib"/>
+				<Tool Name="VFResourceCompilerTool" PreprocessorDefinitions="CMAKE_INTDIR=\&quot;Release\&quot;"/>
+				<Tool Name="VFMidlTool" GenerateStublessProxies="true" OutputDirectory="$(IntDir)" HeaderFileName="$(InputName).h" DLLDataFileName="" InterfaceIdentifierFileName="$(InputName)_i.c" ProxyFileName="$(InputName)_p.c" TypeLibraryName="$(InputName).tlb"/>
+				<Tool Name="VFCustomBuildTool"/>
+				<Tool Name="VFPreLinkEventTool"/>
+				<Tool Name="VFPreBuildEventTool"/>
+				<Tool Name="VFPostBuildEventTool"/>
+				<Tool Name="VFManifestTool"/></Configuration></Configurations>
+	<Files>
+		<Filter Name="Source Files">
+		<File RelativePath=".\fitpack\bispeu.f"/>
+		<File RelativePath=".\fitpack\bispev.f"/>
+		<File RelativePath=".\fitpack\clocur.f"/>
+		<File RelativePath=".\fitpack\cocosp.f"/>
+		<File RelativePath=".\fitpack\concon.f"/>
+		<File RelativePath=".\fitpack\concur.f"/>
+		<File RelativePath=".\fitpack\cualde.f"/>
+		<File RelativePath=".\fitpack\curev.f"/>
+		<File RelativePath=".\fitpack\curfit.f"/>
+		<File RelativePath=".\fitpack\dblint.f"/>
+		<File RelativePath=".\fitpack\evapol.f"/>
+		<File RelativePath=".\fitpack\fourco.f"/>
+		<File RelativePath=".\fitpack\fpader.f"/>
+		<File RelativePath=".\fitpack\fpadno.f"/>
+		<File RelativePath=".\fitpack\fpadpo.f"/>
+		<File RelativePath=".\fitpack\fpback.f"/>
+		<File RelativePath=".\fitpack\fpbacp.f"/>
+		<File RelativePath=".\fitpack\fpbfout.f"/>
+		<File RelativePath=".\fitpack\fpbisp.f"/>
+		<File RelativePath=".\fitpack\fpbspl.f"/>
+		<File RelativePath=".\fitpack\fpchec.f"/>
+		<File RelativePath=".\fitpack\fpched.f"/>
+		<File RelativePath=".\fitpack\fpchep.f"/>
+		<File RelativePath=".\fitpack\fpclos.f"/>
+		<File RelativePath=".\fitpack\fpcoco.f"/>
+		<File RelativePath=".\fitpack\fpcons.f"/>
+		<File RelativePath=".\fitpack\fpcosp.f"/>
+		<File RelativePath=".\fitpack\fpcsin.f"/>
+		<File RelativePath=".\fitpack\fpcurf.f"/>
+		<File RelativePath=".\fitpack\fpcuro.f"/>
+		<File RelativePath=".\fitpack\fpcyt1.f"/>
+		<File RelativePath=".\fitpack\fpcyt2.f"/>
+		<File RelativePath=".\fitpack\fpdeno.f"/>
+		<File RelativePath=".\fitpack\fpdisc.f"/>
+		<File RelativePath=".\fitpack\fpfrno.f"/>
+		<File RelativePath=".\fitpack\fpgivs.f"/>
+		<File RelativePath=".\fitpack\fpgrdi.f"/>
+		<File RelativePath=".\fitpack\fpgrpa.f"/>
+		<File RelativePath=".\fitpack\fpgrre.f"/>
+		<File RelativePath=".\fitpack\fpgrsp.f"/>
+		<File RelativePath=".\fitpack\fpinst.f"/>
+		<File RelativePath=".\fitpack\fpintb.f"/>
+		<File RelativePath=".\fitpack\fpknot.f"/>
+		<File RelativePath=".\fitpack\fpopdi.f"/>
+		<File RelativePath=".\fitpack\fpopsp.f"/>
+		<File RelativePath=".\fitpack\fporde.f"/>
+		<File RelativePath=".\fitpack\fppara.f"/>
+		<File RelativePath=".\fitpack\fppasu.f"/>
+		<File RelativePath=".\fitpack\fpperi.f"/>
+		<File RelativePath=".\fitpack\fppocu.f"/>
+		<File RelativePath=".\fitpack\fppogr.f"/>
+		<File RelativePath=".\fitpack\fppola.f"/>
+		<File RelativePath=".\fitpack\fprank.f"/>
+		<File RelativePath=".\fitpack\fprati.f"/>
+		<File RelativePath=".\fitpack\fpregr.f"/>
+		<File RelativePath=".\fitpack\fprota.f"/>
+		<File RelativePath=".\fitpack\fprppo.f"/>
+		<File RelativePath=".\fitpack\fprpsp.f"/>
+		<File RelativePath=".\fitpack\fpseno.f"/>
+		<File RelativePath=".\fitpack\fpspgr.f"/>
+		<File RelativePath=".\fitpack\fpsphe.f"/>
+		<File RelativePath=".\fitpack\fpsuev.f"/>
+		<File RelativePath=".\fitpack\fpsurf.f"/>
+		<File RelativePath=".\fitpack\fpsysy.f"/>
+		<File RelativePath=".\fitpack\fptrnp.f"/>
+		<File RelativePath=".\fitpack\fptrpe.f"/>
+		<File RelativePath=".\fitpack\insert.f"/>
+		<File RelativePath=".\fitpack\parcur.f"/>
+		<File RelativePath=".\fitpack\parder.f"/>
+		<File RelativePath=".\fitpack\pardeu.f"/>
+		<File RelativePath=".\fitpack\parsur.f"/>
+		<File RelativePath=".\fitpack\percur.f"/>
+		<File RelativePath=".\fitpack\pogrid.f"/>
+		<File RelativePath=".\fitpack\polar.f"/>
+		<File RelativePath=".\fitpack\profil.f"/>
+		<File RelativePath=".\fitpack\regrid.f"/>
+		<File RelativePath=".\fitpack\spalde.f"/>
+		<File RelativePath=".\fitpack\spgrid.f"/>
+		<File RelativePath=".\fitpack\sphere.f"/>
+		<File RelativePath=".\fitpack\splder.f"/>
+		<File RelativePath=".\fitpack\splev.f"/>
+		<File RelativePath=".\fitpack\splint.f"/>
+		<File RelativePath=".\fitpack\sproot.f"/>
+		<File RelativePath=".\fitpack\surev.f"/>
+		<File RelativePath=".\fitpack\surfit.f"/></Filter></Files>
+	<Globals/></VisualStudioProject>
